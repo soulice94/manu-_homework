@@ -33,4 +33,4 @@ function change_zombie() {
 setInterval(function(){
     let final_time = Date.now();
     document.getElementById("realTime").innerText = ((final_time - init_time)/1000) + "s";
-}, 500);
+}, 50);
