@@ -1,14 +1,19 @@
 body {
-    background-image: url("background.jpg");
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("background.jpg");
 }
 h1 {
     color: white;
 }
 #canvas {
-    width: 500px;
-    height: 500px;
+    width: 99vw;
+    height: 80vh;
 }
 
 #zombie {
